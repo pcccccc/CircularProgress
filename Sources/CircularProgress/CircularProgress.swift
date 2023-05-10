@@ -135,15 +135,15 @@ public final class CircularProgress: NSView {
 			_isFinished = newValue
 			didChangeValue(for: \.isFinished)
 
-			if _isFinished {
-				isIndeterminate = false
-
-				if !isCancelled, showCheckmarkAtHundredPercent {
-					progressLabel.string = ""
-					cancelButton.isHidden = true
-					successView.isHidden = false
-				}
-			}
+//			if _isFinished {
+//				isIndeterminate = false
+//
+//				if !isCancelled, showCheckmarkAtHundredPercent {
+//					progressLabel.string = ""
+//					cancelButton.isHidden = true
+//					successView.isHidden = false
+//				}
+//			}
 		}
 	}
 
